@@ -1,0 +1,691 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+	background: url(img/pozadina.jpg);
+    background-size: cover;
+    background-position: center;
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+	overflow:auto;
+}
+/*--------------------------------------POCETNA STRANICA------------------------------------------*/
+.prvibox{
+    width: calc(1000px - 30px);
+    height: calc(80px - 30px);
+    background: #000;
+    color: #fff;
+    top: 6%;
+    left: 50%;
+    position: absolute;/*centriranje*/
+    transform: translate(-50%,-50%);
+}
+.prvibox .jedan{
+	transform: translate(20px,0px);
+}
+.prvibox a{
+    text-decoration: none;
+    font-size: 13px;
+    line-height: 50px;
+    color: #ff0000;
+}
+.prvibox a:hover{
+	color:#fff;
+}
+.prviboxa{
+	width:calc(90px - 30px);
+	height:calc(80px - 30px);
+	background:#000;
+	color:#fff;
+	top: 6%;
+    left: 92%;
+	position:absolute;
+	transform: translate(-50%,-50%);
+}
+.prviboxa a{
+	text-decoration:none;
+	font-size:13px;
+	line-height:50px;
+	color:#ff0000;
+}
+.prviboxa a:hover{
+	color:#fff;
+}
+.drugibox{
+	width:calc(1000px - 30px);
+	height:450px;
+	background:#f3f3f3;
+	color:#fff;
+	top: 60%;
+    left: 50%;
+	position:absolute;
+	transform: translate(-50%,-50%);
+}
+/*---------------------------------------------------KRAJ pocetna stranica----------------------*/
+/*----------------------------------------------NASLOVNA STRANICA-----------------------------------*/
+.trecibox{
+    width: 320px;
+    height: 390px;
+    background: #000;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+	border-radius: 5%;
+}
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+#special{
+    text-decoration: none;
+	text-align: center;
+    font-size: 15px;
+    line-height: 40px;
+	letter-spacing: 4px;
+    color: darkgrey;
+}
+#special:hover{
+	color:ff0000;
+}
+.avatar{
+    width: 200px;
+    height: 120px;
+    position: absolute;
+    top: 110px;
+    left: calc(30% - 30px);
+}
+/*----------------------------------------------KRAJ naslovne stranice------------------------------*/
+/*----------------------------------------------LOGIN stranica--------------------------------------*/
+.cetvrtibox{
+    width: 320px;
+    height: 380px;
+    background: #000;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+	border-radius: 5%;
+}
+.avatardva{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+.cetvrtibox p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+.cetvrtibox input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.cetvrtibox input[type="text"], input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+.cetvrtibox p3{
+    text-align: center;
+    color: #ffffff;
+	font-size: 13px;
+	color: #f3ff02;
+    margin: 0px 0px 50px 0px;
+}
+.cetvrtibox input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #fb2525;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.cetvrtibox input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+}
+.cetvrtibox a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgrey;
+}
+.cetvrtibox a:hover
+{
+    color: #ff0000;
+}
+/*----------------------------------------------KRAJ Login stranice---------------------------------*/
+/*----------------------------------------------REGISTER stranica---------------------------------*/
+.petibox{
+    width: 320px;
+    height: 520px;
+    background: #000;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+	border-radius: 5%;
+}
+.avatartri{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+h2{
+    margin: 0;
+    padding: 0 0 50px;
+    text-align: center;
+    font-size: 10px;
+}
+.spol{
+    width: 80px;
+    height: 20px;
+    position: absolute;
+    top: 180px;
+    right: calc(13% - 13px);
+	border: none;
+    outline: none;
+	background: #fb2525;
+}
+.dan{
+	width: 50px;
+	height: 20px;
+	position: absolute;
+	top: 287px;
+	left: calc(14% - 14px);
+	border: none;
+    outline: none;
+	background: #fb2525;
+}
+.mjesec{
+	width: 80px;
+	height: 20px;
+	position: absolute;
+	top: 287px;
+	left: calc(48% - 48px);
+	border: none;
+    outline: none;
+	background: #fb2525;
+}
+.godina{
+	width: 80px;
+	height: 20px;
+	position: absolute;
+	top: 287px;
+	left: calc(95% - 95px);
+	border: none;
+    outline: none;
+	background: #fb2525;
+}
+.petibox p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+p2 {
+    text-align: center;
+    color: #ffffff;
+	font-size: 13px;
+	font-color: #f3ff02;
+    margin: 0px 0px 50px 0px;
+}
+.petibox input{
+    width: 100%;
+    margin-bottom: 5px;
+}
+.petibox input[type="text"], input[type="password"], input[type="email"]{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+.petibox input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #fb2525;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.petibox input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+}
+.petibox a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgrey;
+}
+.petibox a:hover
+{
+    color: #ff0000;
+}
+/*----------------------------------------------KRAJ register stranice-------------------------------*/
+/*----------------------------------------------REGISTROVO.PHP---------------------------------------*/
+.regbox{
+    width: 320px;
+    height: 300px;
+    background: #000;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+	border-radius: 5%;
+}
+.regavatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+.regbox p{
+    margin: 0;
+	font-size: 14px;
+    padding: 0;
+    font-weight: bold;
+}
+.regbox input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+	width: 120px;
+    background: #fb2525;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.regbox input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+}
+/*----------------------------------------------KRAJ registrovo.php------------------------------*/
+/*----------------------------------------------lostpw.php----------------------------------------*/
+.lostpwbox{
+    width: 320px;
+    height: 400px;
+    background: #000;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+	border-radius: 5%;
+}
+.avatarlostpw{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+.lostpwbox p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+.lostpwbox input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.lostpwbox input[type="text"], input[type="password"], input[type="email"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+.lostpwbox input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #fb2525;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.lostpwbox input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+}
+.lostpwbox a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 60px;
+    color: darkgrey;
+}
+.lostpwbox a:hover
+{
+    color: #ff0000;
+}
+/*----------------------------------------------KRAJ lostpw.php------------------------------------*/
+/*----------------------------------------------banovan.php------------------------------------*/
+.banbox{
+    width: 320px;
+    height: 300px;
+    background: #000;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+	border-radius: 5%;
+}
+.banbox p{
+    margin: 0;
+	font-size: 14px;
+    padding: 0;
+    font-weight: bold;
+}
+.banavatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+.banbox input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+	width: 120px;
+    background: #fb2525;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.banbox input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+}
+/*----------------------------------------------KRAJ banovan.php------------------------------------*/
+/*----------------------------------------------profil.php----------------------------------------*/
+.profilbox{
+	width:calc(1000px - 30px);
+	height:450px;
+	background:#000;
+	color:#fff;
+	top: 60%;
+    left: 50%;
+	position:absolute;
+	transform: translate(-50%,-50%);
+	border: 2px solid red;
+}
+.profilbox .profilavatar{
+	width:100px;
+	height:100px;
+	border-radius:5%;
+	position:fixed;
+	top:-50;
+	left:45%;
+	border: 2px solid red;
+}
+/*----------------------------------------------Kraj profil.php----------------------------------*/
+/*----------------------------------------------registrovo.php-----------------------------------*/
+.loginboxreg{
+    width: 320px;
+    height: 300px;
+    background: #000;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+	border-radius: 5%;
+}
+.loginboxreg input[type="submit"]
+{
+	position:fixed;
+	left:100px;
+	top:93%;
+    border: none;
+    outline: none;
+    height: 40px;
+	width: 120px;
+    background: #fb2525;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.loginboxreg input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+}
+.loginboxreg p{
+    margin: 0;
+	font-size: 14px;
+    padding: 0;
+    font-weight: bold;
+}
+/*-----------------------------------------------kraj registrovo.php-----------------------------*/
+/*-----------------------------------------------scrollbar edit------------------------------------*/
+::-webkit-scrollbar {
+width: 10px;
+height: 12px;
+}
+
+::-webkit-scrollbar-track {
+//border: 0px solid red;
+border-radius: 0px;
+}
+
+::-webkit-scrollbar-thumb {
+background: red;  
+border-radius: 0px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+background: #b30000;  
+}
+/*----------------------------------------------kraj scrollbar edit------------------------------*/
+/*----------------------------------------------Naslovnabox-----------------------------------*/
+.pocetna{
+	border: 2px solid red;
+	background: url(css/cover/cover11.jpg);
+	position:absolute;
+	left:2%;
+	top:50%;
+	width:95%;
+	height:750px;
+	background-size: cover;
+    background-position: center;
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.pocetna hr{
+	border: 2px red;
+	width:95%;
+	height:2px;
+	text-decoration: none;
+    color: red;
+	background:red;
+}
+.pocetna a{
+	//line-height:50px;
+	//left:20%;
+	//width:90%;
+	//color:red;
+	text-decoration:none;
+    font-size: 20px;
+	margin-left:60px;
+    line-height: 50px;
+    color: #ff0000;
+}
+.pocetna a:hover{
+	color:#fff;
+}
+.pocetna .cover{
+	position:absolute;
+	top:-42px;
+	left:0%;
+	width: 100%;
+    height: 40px;
+	text-align:left;
+	background:#104E8B;
+}
+.pocetna .cover p{
+	text-align:center;
+	color:#fff;
+}
+.pocetna .coverdva{
+	position:absolute;
+	top:193px;
+	left:0%;
+	width: 100%;
+    height: 40px;
+	text-align:left;
+	background:#104E8B;
+}
+.pocetna .coverdva p{
+	text-align:center;
+	color:#fff;
+}
+.pocetna .covertri{
+	position:absolute;
+	top:430px;
+	left:0%;
+	width: 100%;
+    height: 40px;
+	text-align:left;
+	background:#104E8B;
+}
+.pocetna .covertri p{
+	text-align:center;
+	color:#fff;
+}
+/*----------------------------------------------kraj naslovnabox-----------------------------*/
+/*----------------------------------------------GLAVNI RAZGOVOR-------------------------*/
+.glavnirazgovor table{
+position: absolute;
+top: 250px;
+left: 50px;
+width: 90%;
+height: 90%;
+border-collapse: collapse;
+border: 1px solid black;
+background:#fff;
+color:#ff0000;
+caption-side: bottom;
+}
+.glavnirazgovor .avatarglchat{
+	width:150px;
+	height:180px;
+}
+.glavnirazgovor table td{
+	//border:1px solid red;
+	background:#68838B;
+	text-align: center;
+	vertical-align: top;
+	padding: 15px;
+	border-bottom: 1px solid #000;
+	border-left: 1px solid #000;
+}
+.glavnirazgovor table a{
+	margin-bottom:0px;
+	text-decoration:none;
+	color:#fff;
+	font-size: 20px;
+	margin-left:14px;
+    line-height: 50px;
+}
+.glavnirazgovor table a:hover{
+	color:#ff0000;
+}
+.glavnirazgovor table td p{
+	margin:0%;
+	position:absolute;
+	color:#000;
+}
+#datum{
+	color:#f3f3f3;
+	font-size:13px;
+	text-align:center;
+	margin-top:160px;
+	margin-left:55%;
+}
+.glavnirazgovor input[type="submit"]
+{
+	position:absolute;
+	top:220px;
+	left:87%;
+    border: none;
+    outline: none;
+    height: 30px;
+    background: #fb2525;
+    color: #fff;
+    font-size: 18px;
+}
+.glavnirazgovor input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+}
+/*----------------------------------------------Kraj glavnog razgovora--------------------*/
